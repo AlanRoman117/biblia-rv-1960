@@ -1,12 +1,16 @@
 # Reina Valera 1960 Bible in JSON Format
 
-This repository provides the complete text of the Spanish Reina Valera 1960 (RV1960) Bible in a clean, structured JSON format. It is designed for developers and anyone who needs easy, programmatic access to the scriptures.
+This repository provides the complete, generated text of the Spanish Reina Valera 1960 (RV1960) Bible in a clean, structured JSON format. It is designed for developers and anyone who needs easy, programmatic access to the scriptures.
 
 The data structure is modeled after the popular `aruljohn/Bible-kjv` project to ensure consistency and ease of use for developers familiar with that format.
 
+## How to Use the Files
+
+The directory contains the final, generated JSON files. You can directly use these files in your projects without needing to run any scripts.
+
 ## Data Structure
 
-The data is organized into the following files:
+The data is organized into the following files within the `rv1960_output/` directory:
 
 1.  **Individual Book Files (66 files):** Each book of the Bible has its own JSON file (e.g., `Génesis.json`, `Apocalipsis.json`). The structure of each file is:
 
@@ -66,13 +70,17 @@ This project is released under the **MIT License**. See the `LICENSE` file for m
 
 # Biblia Reina Valera 1960 en Formato JSON
 
-Este repositorio proporciona el texto completo de la Biblia Reina Valera 1960 (RV1960) en un formato JSON limpio y estructurado. Está diseñado para desarrolladores y cualquier persona que necesite un acceso fácil y programático a las escrituras.
+Este repositorio proporciona el texto completo y ya generado de la Biblia Reina Valera 1960 (RV1960) en un formato JSON limpio y estructurado. Está diseñado para desarrolladores y cualquier persona que necesite un acceso fácil y programático a las escrituras.
 
 La estructura de datos está modelada a partir del popular proyecto `aruljohn/Bible-kjv` para asegurar la consistencia y facilidad de uso para los desarrolladores familiarizados con ese formato.
 
+## Cómo Usar los Archivos
+
+El directorio contiene los archivos JSON finales y generados. Puede usar estos archivos directamente en sus proyectos sin necesidad de ejecutar ningún script.
+
 ## Estructura de Datos
 
-Los datos están organizados en los siguientes archivos:
+Los datos están organizados en los siguientes archivos dentro del directorio `rv1960_output/`:
 
 1.  **Archivos de Libros Individuales (66 archivos):** Cada libro de la Biblia tiene su propio archivo JSON (p. ej., `Génesis.json`, `Apocalipsis.json`). La estructura de cada archivo es:
 
@@ -84,7 +92,7 @@ Los datos están organizados en los siguientes archivos:
           "chapter": 1,
           "verses": [
             {
-              "verse": 1,
+              "chapter": 1,
               "text": "En el principio creó Dios los cielos y la tierra."
             },
             {
